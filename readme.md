@@ -1,4 +1,6 @@
-# Guia Para acceder a servicios de la ECCI  
+# Guia Para acceder a servicios de la ECCI    
+Alejandro duarte Lobo  
+B62386  
   
 ## VPN e ingreso a la maquina virtual
 1. Instalar **OpenVPN**.  
