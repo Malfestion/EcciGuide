@@ -1,4 +1,4 @@
-# Guia Para acceder al VP
+# Guia Para acceder a servicios de la ECCI
 ## VPN e ingreso a la maquina virtual
 1. Instalar OpenVPN.  
 2. Descargar los archivos de configuracion del VPN de la ecci.  
