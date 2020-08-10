@@ -18,4 +18,4 @@ A partir de este paso ya estaria conectado a su maquina virtual.
 Para cambiar el password de la maquina virtual se utiliza el siguiente comando:  
 >passwd  
 
-Seguidamente se ingresa el password actual y luego al que se desea cambiar como lo indica la terminal.  
+Seguidamente se ingresa el password actual y luego el password al que se desea cambiar como lo indica la terminal.  
