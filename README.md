@@ -1,11 +1,11 @@
 # Guia Para acceder a servicios de la ECCI  
   
 ## VPN e ingreso a la maquina virtual
-1. Instalar OpenVPN.  
+1. Instalar **OpenVPN**.  
 2. Descargar los archivos de configuracion del VPN de la ecci.  
 3. Ingresar el siguiente comando en el directorio donde estan los archivos de configuracion:  
 ```console
-user@pc:~$ sudo openvpn --config ecci.ovpn  
+user@pc ecci:~$ sudo openvpn --config ecci.ovpn  
 ```
 4. Ingresar el username y password que se usa normalmente para ingresar a los laboratorios.  
 Una vez conectado, dejar esa terminal abierta, ya que si se cierra o se usa ctrl+c se cerraria el tunel a la red de la ECCI.  
