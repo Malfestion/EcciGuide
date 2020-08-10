@@ -1,4 +1,5 @@
-# Guia Para acceder a servicios de la ECCI
+# Guia Para acceder a servicios de la ECCI  
+  
 ## VPN e ingreso a la maquina virtual
 1. Instalar OpenVPN.  
 2. Descargar los archivos de configuracion del VPN de la ecci.  
@@ -19,3 +20,6 @@ Para cambiar el password de la maquina virtual se utiliza el siguiente comando:
 >passwd  
 
 Seguidamente se ingresa el password actual y luego el password al que se desea cambiar como lo indica la terminal.  
+  
+  
+## Ingreso al Cluster de Arenal
