@@ -34,14 +34,14 @@ sudo adduser username
 * Se puede visualizar el cluster en: arenal.ecci.ucr.ac.cr , sin embargo desde la pagina solo se pueden observar estadisticas.    
 ### Para ingresar al cluster:
 * Ingresar el siguiente comando:  
-```bash
+```console
 foo@bar:~$ ssh user@arenal.ecci.ucr.ac.cr  
 ```
   
 Donde el user es el numero de carnet con la primera letra en mayuscula y el pasword es asignado por el profesor.  
 ### Para trabajar dentro del cluster:
 * Se puede cambiar del nodo principal a un nodo esclavo utlilizando ssh:
-```bash
+```console
 foo@bar:~$ ssh compute-0-0    
 foo@bar:~$ ssh compute-0-1   
 ```
