@@ -16,11 +16,13 @@ Siendo la ip, la que los profesores le asignen.
 A partir de este paso ya estaria conectado a su maquina virtual.  
    
 ## Configuracion de la maquina virtual  
-Para cambiar el password de la maquina virtual se utiliza el siguiente comando:  
+* Para cambiar el password de la maquina virtual se utiliza el siguiente comando:  
 >passwd  
 
 Seguidamente se ingresa el password actual y luego el password al que se desea cambiar como lo indica la terminal.  
-  
+
+* Para crear un nuevo usuario se usa el siguiente comando:
+>sudo adduser username
   
 ## Ingreso al Cluster de Arenal
 * Se puede visualizar el cluster en: arenal.ecci.ucr.ac.cr , sin embargo desde la pagina solo se pueden observar estadisticas.    
