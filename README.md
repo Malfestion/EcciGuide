@@ -9,6 +9,7 @@ Una vez conectado, dejar esa terminal abierta, ya que si se cierra o se usa ctrl
 
 5. Para *conectarse a la maquina virtual* usar el sigiente comando:  
   >ssh ecciadm@ip  
+  
 Siendo la ip, la que los profesores le asignen.  
 6. se usa el password que los profesores proveen para ingresar a la maquina.  
 A partir de este paso ya estaria conectado a su maquina virtual.  
@@ -16,4 +17,5 @@ A partir de este paso ya estaria conectado a su maquina virtual.
 ## Configuracion de la maquina virtual  
 Para cambiar el password de la maquina virtual se utiliza el siguiente comando:  
 >passwd  
+
 Seguidamente se ingresa el password actual y luego al que se desea cambiar como lo indica la terminal.  
