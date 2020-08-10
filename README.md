@@ -38,7 +38,7 @@ user@pc:~$ sudo adduser username
 user@pc:~$ ssh user@arenal.ecci.ucr.ac.cr  
 ```
   
-Donde el user es el numero de carnet con la primera letra en mayuscula y el pasword es asignado por el profesor.  
+Donde el **user** es el numero de carnet con la primera letra en mayuscula y el **password** es asignado por el profesor.  
 ### Para trabajar dentro del cluster:
 * Se puede cambiar del nodo principal a un nodo esclavo utlilizando ssh:
 ```console
