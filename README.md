@@ -30,4 +30,12 @@ Seguidamente se ingresa el password actual y luego el password al que se desea c
 
 Donde el user es el numero de carnet con la primera letra en mayuscula y el pasword es asignado por el profesor.  
 ### Para trabajar dentro del cluster:
-
+* Se puede cambiar del nodo principal a un nodo esclavo utlilizando ssh:
+>ssh compute-0-0   
+ssh compute-0-1  
+etc  
+  
+  
+* para volver al nodo principal se utiliza ctrl+D
+* Cualquier archivo en en el directorio /home es accesible para cualquier nodo esclavo, son archivos compartidos.
+* En el directorio /share/appps/ejemplosECCI/ se encuentran varios ejemplos del uso de OpenMP y MPI, para ejecutarlos se copian a /hoome/ se compilan y se ejecutan.
