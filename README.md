@@ -8,7 +8,7 @@
 4. Ingresar el username y password que se usa normalmente para ingresar a los laboratorios.  
 Una vez conectado, dejar esa terminal abierta, ya que si se cierra o se usa ctrl+c se cerraria el tunel a la red de la ECCI.  
 
-5. Para *conectarse a la maquina virtual* usar el sigiente comando:  
+5. Para **conectarse a la maquina virtual** usar el sigiente comando:  
   >ssh ecciadm@ip  
   
 Siendo la ip, la que los profesores le asignen.  
@@ -39,5 +39,5 @@ etc
   
   
 * para volver al nodo principal se utiliza ctrl+D
-* Cualquier archivo en en el directorio /home es accesible para cualquier nodo esclavo, son archivos compartidos.
-* En el directorio /share/appps/ejemplosECCI/ se encuentran varios ejemplos del uso de OpenMP y MPI, para ejecutarlos se copian a /hoome/ se compilan y se ejecutan.
+* Cualquier archivo en en el directorio `/home` es accesible para cualquier nodo esclavo, son archivos compartidos.
+* En el directorio `/share/appps/ejemplosECCI/` se encuentran varios ejemplos del uso de OpenMP y MPI, para ejecutarlos se copian a /hoome/ se compilan y se ejecutan.
