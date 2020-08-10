@@ -23,3 +23,11 @@ Seguidamente se ingresa el password actual y luego el password al que se desea c
   
   
 ## Ingreso al Cluster de Arenal
+* Se puede visualizar el cluster en: arenal.ecci.ucr.ac.cr , sin embargo desde la pagina solo se pueden observar estadisticas.    
+### Para ingresar al cluster:
+* Ingresar el siguiente comando:  
+>ssh user@arenal.ecci.ucr.ac.cr  
+
+Donde el user es el numero de carnet con la primera letra en mayuscula y el pasword es asignado por el profesor.  
+### Para trabajar dentro del cluster:
+
