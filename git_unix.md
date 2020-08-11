@@ -11,13 +11,13 @@ B62386
 * Para agregar miembros al grupo se va a la pestaña `settings` a la izquierda de la pagina, luego a se va a `members` y se agregan usando el correo institucional.
   
 ### Guia de uso de Git
-* En caso de ser la primera vez que se instala git se utilizan los siguiente comandos para definir la identidad del usuario:
+* En caso de ser **la primera vez** que se instala git se utilizan los siguiente comandos para definir la identidad del usuario:
 ```console
 user@pc:~$ git config --global user.name "nombre"
 user@pc:~$ git config --global user.email "correo"
 
 ```
-* Para clonar un repositorio de git a una carpeta local se utiliza el comando:
+* Para ***clonar** un repositorio de git a una carpeta local se utiliza el comando:
 ```console
 user@pc:~$ git clone [url del proyecto]
 
@@ -28,29 +28,29 @@ De esta manera se crea una copia del repositorio en git en un repositorio local,
 user@pc:/Proyecto$ git add archivo
 
 ```
-* Para modificar los archivos en el repositorio o "meterlos al castillo" se usa el comando:
+* Para **modificar** los archivos en el repositorio o "meterlos al castillo" se usa el comando:
  ```console
 user@pc:/Proyecto$ git commit -m "descripcion clara de los cambios"
 
 ```
-* Para subir los archivos modificados al repositorio original se usa el comando:
+* Para **subir** los archivos modificados al repositorio original se usa el comando:
 ```console
 user@pc:/Proyecto$ git push
 
 ```
   
-* En caso de hacer un cambio en el Working directory y luego "arrepentirse", para restaurar los cambios se usa el comando:
+* En caso de hacer un cambio en el Working directory y luego "arrepentirse", para **restaurar los cambios** se usa el comando:
 ```console
 user@pc:/Proyecto$ git checkout archivo
 
 ```
 Este comando agarra los archivos que estan en el repositorio local y le cae encima a los archivos en el Working directory.  
-* En caso de hacer un add y arrepentirse, para elimiar lo que se subio al stage se usa el comando:
+* En caso de hacer un add y arrepentirse, para **revertir el add**, es decir, lo que se subio al stage se usa el comando:
 ```console
 user@pc:/Proyecto$ git reset
 
 ```
-* Para revisar el estado del repositorio se usa el comando:
+* Para **revisar el estado** del repositorio se usa el comando:
 ```console
 user@pc:/Proyecto$ git status
 
