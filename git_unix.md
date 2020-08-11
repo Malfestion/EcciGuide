@@ -4,7 +4,7 @@ Alejandro Duarte Lobo
 B62386  
   
 ### Ingreso a Gitlab UCR
-* Se puede entrar al gitlab de la UCR mediante el link: [git UCR](git.ucr.ac.cr)`
+* Se puede entrar al gitlab de la UCR mediante el link: [git UCR](https://git.ucr.ac.cr)`
 * Se puede ingresar con la cuenta institucional.
 * Para crear un nuevo grupo de trabajo se da click en la pesta;a `gropus->Your groups` y se da click en el boton `New Group`
 * Para crear un repositorio, dentro del grupo se caclick en el boton `New project`
