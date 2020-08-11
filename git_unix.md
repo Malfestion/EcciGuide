@@ -23,7 +23,7 @@ user@pc:~$ git clone [url del proyecto]
 
 ```
 De esta manera se crea una copia del repositorio en git en un repositorio local, en el cual podemos trabajar usando el **Working directory**.  
-* Para agregar archivos modificados al **stage** se usa el comando:  
+* Para **agregar** archivos modificados al **stage** se usa el comando:  
 ```console
 user@pc:/Proyecto$ git add archivo
 
