@@ -67,10 +67,36 @@ etc
 * Cualquier archivo en en el directorio `/home` es accesible para cualquier nodo esclavo, son archivos compartidos.
 * En el directorio `/share/appps/ejemplosECCI/` se encuentran varios ejemplos del uso de OpenMP y MPI, para ejecutarlos se copian a /hoome/ se compilan y se ejecutan.
   
-### Comandos y notas utiles:
+  
+### Gitlab UCR
+* Se puede entrar al gitlab de la UCR mediante el link:git.ucr.ac.cr
+* Se puede ingresar con la cuenta institucional.
+* Para crear un nuevo grupo de trabajo se da click en la pesta;a gropus->Your groups y se da click en el boton `New Group`
+* Para crear un repositorio, dentro del grupo se caclick en el boton `New project`
+* Para agregar miembros al grupo se va a la pesta;a settings a la izquierda de la pagina, luego a members y se agregan usando el correo institucional.
+  
+  
+  
+### Comandos basicos y notas utiles de Unix:
 * Se puede cambiar en la consola a bash en vez de shell que es mas "amigable" y se pueden usar comandos como ctrl k o ctrl u y demas.  
 Se puede modificar /etc/shells para que bash sea el primero.  
   
    
 * `pwd` se usa para ver en el directorio en el que estamos.  
   
+  
+* En los sistemas Unix todos los archivos estan organizados como un arbol que empieza desde el nodo Raiz, a diferencia de los discos de windows.
+  
+    
+* `ls` -a permite ver archivos ocultos, -l permite ver la lista "larga" incluyendo peso y permisos, entre otros datos.
+  
+  
+* Los permisos:
+    * la primera letra indica si es un directorio o un archivo comun (d,-).
+    * los primeros 3 permisos afectan al usuario que creo el archivo.
+    * los segundos 3 permisos corresponden a los permisos de grupo.
+    * los ultimos 3 permisos corresponden a los que no estan en ninguno de los anteriores.
+    * r=read w=write x=execute -=no tiene permisos
+  
+  
+* 
