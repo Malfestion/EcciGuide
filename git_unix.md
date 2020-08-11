@@ -1,5 +1,8 @@
 # Guia de git y unix 
-
+  
+Alejandro Duarte Lobo  
+B62386  
+  
 ### Ingreso a Gitlab UCR
 * Se puede entrar al gitlab de la UCR mediante el link:`git.ucr.ac.cr`
 * Se puede ingresar con la cuenta institucional.
