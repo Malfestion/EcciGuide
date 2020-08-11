@@ -104,7 +104,7 @@ user@pc:/Proyecto$ git checkout archivo
 
 ```
 Este comando agarra los archivos que estan en el repositorio local y le cae encima a los archivos en el Working directory.  
-* En caso de hacer un add y arrepentirse para elimiar lo que se subio al stage se usa el comando:
+* En caso de hacer un add y arrepentirse, para elimiar lo que se subio al stage se usa el comando:
 ```console
 user@pc:/Proyecto$ git reset
 
