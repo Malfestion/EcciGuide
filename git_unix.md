@@ -79,5 +79,5 @@ Se puede modificar /etc/shells para que bash sea el primero.
     * Ejemplo: **drwxr-xr-x** 
   
   
-* 
+* Se pueden cambiar los permisos de un archivo o directorio con el comando `chmod`
 
