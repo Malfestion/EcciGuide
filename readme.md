@@ -69,11 +69,11 @@ etc
   
   
 ### Gitlab UCR
-* Se puede entrar al gitlab de la UCR mediante el link:git.ucr.ac.cr
+* Se puede entrar al gitlab de la UCR mediante el link:`git.ucr.ac.cr`
 * Se puede ingresar con la cuenta institucional.
-* Para crear un nuevo grupo de trabajo se da click en la pesta;a gropus->Your groups y se da click en el boton `New Group`
+* Para crear un nuevo grupo de trabajo se da click en la pesta;a `gropus->Your groups` y se da click en el boton `New Group`
 * Para crear un repositorio, dentro del grupo se caclick en el boton `New project`
-* Para agregar miembros al grupo se va a la pesta;a settings a la izquierda de la pagina, luego a members y se agregan usando el correo institucional.
+* Para agregar miembros al grupo se va a la pesta;a `settings` a la izquierda de la pagina, luego a se va a `members` y se agregan usando el correo institucional.
   
   
   
