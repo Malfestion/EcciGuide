@@ -5,10 +5,10 @@ B62386
   
 ### Ingreso a Gitlab UCR
 * Se puede entrar al gitlab de la UCR mediante el link: [git UCR](https://git.ucr.ac.cr)`
-* Se puede ingresar con la cuenta institucional.
-* Para crear un nuevo grupo de trabajo se da click en la pesta;a `gropus->Your groups` y se da click en el boton `New Group`
+* Se puede ingresar con los credenciales de la cuenta institucional.
+* Para crear un nuevo grupo de trabajo se da click en la pestaña `gropus->Your groups` y se da click en el boton `New Group`
 * Para crear un repositorio, dentro del grupo se caclick en el boton `New project`
-* Para agregar miembros al grupo se va a la pesta;a `settings` a la izquierda de la pagina, luego a se va a `members` y se agregan usando el correo institucional.
+* Para agregar miembros al grupo se va a la pestaña `settings` a la izquierda de la pagina, luego a se va a `members` y se agregan usando el correo institucional.
   
 ### Guia de uso de Git
 * En caso de ser la primera vez que se instala git se utilizan los siguiente comandos para definir la identidad del usuario:
@@ -76,6 +76,7 @@ Se puede modificar /etc/shells para que bash sea el primero.
     * los segundos 3 permisos corresponden a los permisos de grupo.
     * los ultimos 3 permisos corresponden a los que no estan en ninguno de los anteriores.
     * r=read w=write x=execute -=no tiene permisos
+    * Ejemplo: **drwxr-xr-x** 
   
   
 * 
