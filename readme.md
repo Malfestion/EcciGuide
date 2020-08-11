@@ -32,7 +32,19 @@ Seguidamente se ingresa el password actual y luego el password al que se desea c
 ```console
 user@pc:~$ sudo adduser username
 ```
-  
+O tambien  
+```console
+user@pc:~$ sudo useradd -m username
+
+```
+La opcion -m es para crear una carpeta home/ del usuario.  
+Seguidamente nos pedira el password de administrador.  
+Despues se debe cambiar el password del usuario que acabamos de crear:  
+```console
+user@pc:~$ sudo passwd username
+```
+Cuando se usa `sudo` en este caso, no pregunta por el password anterior.   
+
 ## Ingreso al Cluster de Arenal
 * Se puede visualizar el cluster en: arenal.ecci.ucr.ac.cr , sin embargo desde la pagina solo se pueden observar estadisticas.    
 ### Para ingresar al cluster:
@@ -54,3 +66,11 @@ etc
 * para volver al nodo principal se utiliza `ctrl+D`
 * Cualquier archivo en en el directorio `/home` es accesible para cualquier nodo esclavo, son archivos compartidos.
 * En el directorio `/share/appps/ejemplosECCI/` se encuentran varios ejemplos del uso de OpenMP y MPI, para ejecutarlos se copian a /hoome/ se compilan y se ejecutan.
+  
+### Comandos y notas utiles:
+* Se puede cambiar en la consola a bash en vez de shell que es mas "amigable" y se pueden usar comandos como ctrl k o ctrl u y demas.  
+Se puede modificar /etc/shells para que bash sea el primero.  
+  
+   
+* `pwd` se usa para ver en el directorio en el que estamos.  
+  
