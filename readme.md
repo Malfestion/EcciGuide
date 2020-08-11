@@ -76,6 +76,12 @@ etc
 * Para agregar miembros al grupo se va a la pesta;a `settings` a la izquierda de la pagina, luego a se va a `members` y se agregan usando el correo institucional.
   
 ### Guia de uso de Git
+* En caso de ser la primera vez que se instala git se utilizan los siguiente comandos para definir la identidad del usuario:
+```console
+user@pc:/Proyecto$ git config --global user.name "nombre"
+user@pc:/Proyecto$ git config --global user.email "correo"
+
+```
 * Para clonar un repositorio de git a una carpeta local se utiliza el comando:
 ```console
 user@pc:/Proyecto$ git clone [url del proyecto]
