@@ -40,7 +40,8 @@ user@pc:/Proyecto$ git commit -m "descripcion clara de los cambios"
 user@pc:/Proyecto$ git push
 
 ```
-  
+**Recordatorio: Usar comentarios informativos y utiles para que tanto los miembros del grupo como los profesores puedan estar bien informados sobre los cambios realizados**  
+![alt](./img/gitMeme.png)  
 * En caso de hacer un cambio en el Working directory y luego "arrepentirse", para **restaurar los cambios** se usa el comando:
 ```console
 user@pc:/Proyecto$ git checkout archivo
