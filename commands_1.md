@@ -12,6 +12,7 @@ B62386
   
 ### Guia de uso de Git
 ![alt](./img/git1.png)
+[fuente](https://neurathsboat.blog/post/git-intro/)
 * Para ***clonar** un repositorio de git a una carpeta local se utiliza el comando:
 ```console
 user@pc:/Proyecto$ git clone [url del proyecto]
