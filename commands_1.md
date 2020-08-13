@@ -11,7 +11,7 @@ B62386
 * Para agregar miembros al grupo se va a la pestaña `settings` a la izquierda de la pagina, luego a se va a `members` y se agregan usando el correo institucional.
   
 ### Guia de uso de Git
-
+![alt](./img/git1.png)
 * Para ***clonar** un repositorio de git a una carpeta local se utiliza el comando:
 ```console
 user@pc:/Proyecto$ git clone [url del proyecto]
