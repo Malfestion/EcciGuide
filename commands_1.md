@@ -9,10 +9,11 @@ B62386
 * Para crear un nuevo grupo de trabajo se da click en la pestaña `gropus->Your groups` y se da click en el boton `New Group`
 * Para crear un repositorio, dentro del grupo se caclick en el boton `New project`
 * Para agregar miembros al grupo se va a la pestaña `settings` a la izquierda de la pagina, luego a se va a `members` y se agregan usando el correo institucional.
-  
-### Guia de uso de Git
+    
+### Guia de uso de Git    
+
 ![alt](./img/git1.png)
-[fuente](https://neurathsboat.blog/post/git-intro/)
+[fuente](https://neurathsboat.blog/post/git-intro/)  
 * Para ***clonar** un repositorio de git a una carpeta local se utiliza el comando:
 ```console
 user@pc:/Proyecto$ git clone [url del proyecto]
@@ -30,25 +31,27 @@ De esta manera se crea una copia del repositorio en git en un repositorio local,
 user@pc:/Proyecto$ git add archivo
 
 ```
-* Para **modificar** los archivos en el repositorio o "meterlos al castillo" se usa el comando:
+* Para **modificar** los archivos en el repositorio o "meterlos al castillo" se usa el comando:  
  ```console
 user@pc:/Proyecto$ git commit -m "descripcion clara de los cambios"
 
 ```
-* Para **subir** los archivos modificados al repositorio original se usa el comando:
+* Para **subir** los archivos modificados al repositorio original se usa el comando:  
 ```console
 user@pc:/Proyecto$ git push
 
 ```
 **Recordatorio: Usar comentarios informativos y utiles para que tanto los miembros del grupo como los profesores puedan estar bien informados sobre los cambios realizados**  
-![alt](./img/gitMeme.png)  
-* En caso de hacer un cambio en el Working directory y luego "arrepentirse", para **restaurar los cambios** se usa el comando:
+
+![alt](./img/gitMeme.png)
+
+* En caso de hacer un cambio en el Working directory y luego "arrepentirse", para **restaurar los cambios** se usa el comando:  
 ```console
 user@pc:/Proyecto$ git checkout archivo
 
 ```
 Este comando agarra los archivos que estan en el repositorio local y le cae encima a los archivos en el Working directory.  
-* En caso de hacer un add y arrepentirse, para **revertir el add**, es decir, lo que se subio al stage se usa el comando:
+* En caso de hacer un add y arrepentirse, para **revertir el add**, es decir, lo que se subio al stage se usa el comando:  
 ```console
 user@pc:/Proyecto$ git reset
 
@@ -67,7 +70,7 @@ Se puede modificar /etc/shells para que bash sea el primero.
 * `pwd` se usa para ver en el directorio en el que estamos.  
   
   
-* En los sistemas Unix todos los archivos estan organizados como un arbol que empieza desde el nodo Raiz, a diferencia de los discos de windows.
+* En los sistemas Unix todos los archivos estan organizados como un arbol que empieza desde el nodo Raiz, a diferencia de los discos de windows.  
   
     
 * `ls` -a permite ver archivos ocultos, -l permite ver la lista "larga" incluyendo peso y permisos, entre otros datos.
